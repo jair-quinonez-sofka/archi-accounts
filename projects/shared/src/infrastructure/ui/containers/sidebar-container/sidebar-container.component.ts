@@ -27,7 +27,6 @@ export class SidebarContainerComponent implements OnInit, OnDestroy {
   }
 
   logout(){
-    console.log("Logout");
     this._useCase.execute();
     
   }

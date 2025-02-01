@@ -7,7 +7,6 @@ import { UserInfoService } from '../../../services/user-info.service';
   selector: 'lib-header-container',
   imports: [HeaderComponent],
   templateUrl: './header-container.component.html',
-  styleUrl: './header-container.component.scss'
 })
 export class HeaderContainerComponent  implements OnInit {
   userInfoService = inject(UserInfoService);

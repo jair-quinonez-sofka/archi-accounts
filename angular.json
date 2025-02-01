@@ -94,22 +94,12 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/accounts-manager/src/assets",
-                "output": "/assets"
-              },
-              {
-                "glob": "**/*",
-                "input": "projects/users/src/assets",
+                "input": "projects/users/src/infrastructure/ui/assets",
                 "output": "/assets/users"
               },
               {
                 "glob": "**/*",
-                "input": "projects/accounts/src/assets",
-                "output": "/assets/accounts"
-              },
-              {
-                "glob": "**/*",
-                "input": "projects/shared/src/assets",
+                "input": "projects/shared/src/infrastructure/ui/assets",
                 "output": "/assets/shared"
               }
             ],
@@ -209,7 +199,8 @@
             "polyfills": [
               "zone.js",
               "zone.js/testing"
-            ]
+            ],
+            "include": ["**/*.spec.ts"]  
           }
         }
       }

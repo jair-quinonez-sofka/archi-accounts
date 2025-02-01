@@ -9,7 +9,6 @@ import { AuthenticateUseCase } from '../../../../application/users/authenticate-
   selector: 'lib-login-user-container',
   imports: [LoginFormComponent],
   templateUrl: './login-user-container.component.html',
-  styleUrl: './login-user-container.component.scss'
 })
 export class LoginUserContainerComponent implements OnInit, OnDestroy {
   private readonly _useCase = inject(AuthenticateUseCase);

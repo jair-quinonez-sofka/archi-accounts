@@ -11,12 +11,13 @@ import {
 @Component({
   selector: 'lib-dashboard-layout',
   imports: [
-    SidebarContainerComponent,
     HeaderContainerComponent,
     FooterComponent,
     RouterOutlet,
     LoaderContainerComponent,
-    ToastContainerComponent
+    ToastContainerComponent,
+    SidebarContainerComponent,
+
   ],
   templateUrl: './dashboard-layout.component.html',
   styleUrl: './dashboard-layout.component.scss',

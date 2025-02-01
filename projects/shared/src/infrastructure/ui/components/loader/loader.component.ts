@@ -1,6 +1,4 @@
-import { Component, input, OnDestroy } from '@angular/core';
-import { LoaderService } from '../../../services/loader.service';
-import { Subscription } from 'rxjs';
+import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'lib-loader',

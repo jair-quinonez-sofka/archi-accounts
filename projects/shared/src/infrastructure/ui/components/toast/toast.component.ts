@@ -1,7 +1,4 @@
-import { Component, inject, input, OnDestroy } from '@angular/core';
-import { LoaderService } from '../../../services/loader.service';
-import { Subject, Subscription, takeUntil, timer } from 'rxjs';
-import { ToastService } from '../../../services/toast.service';
+import { Component, input } from '@angular/core';
 import { IToast } from '../../containers/toast-container/toast-container.component';
 
 
